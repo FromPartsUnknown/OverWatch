@@ -1,6 +1,6 @@
 CC = gcc
 CFLAGS = -std=c99 -m32 -shared -fPIC -ldl -D_POSIX_PTHREAD_SEMANTICS
-TARGET = execve-log.so
+TARGET = mailq.so
 SRC = src/execve-log.c
 OS := $(shell uname)
 
